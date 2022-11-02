@@ -35,12 +35,27 @@
   position: relative;
 }
 
+.dropdown2 {
+  display: inline-block;
+  position: relative;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
   width: 100%;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  overflow: visible;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  left: 300px;
 }
 
 .dropdown-content p:hover {
@@ -48,5 +63,9 @@
 }
 
 .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown2:hover .dropdown-content2 {
   display: block;
 }
