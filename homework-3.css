@@ -62,14 +62,6 @@
   line-height: 46px;
 }
 
-.inline-box {
-  display: inline-block;
-}
-
-.arrow {
-  line-height: 46px;
-}
-
 .dropdown-content p:hover {
   background-color: #eeeeee;
 }
@@ -83,4 +75,17 @@
 
 .dropdown2:hover .dropdown-content2 {
   display: block;
+}
+
+.arrow-right {
+  width: 20%;
+  float: right;
+  line-height: 46px;
+}
+.before-arrow {
+  width: 80%;
+  float: left;
+}
+.arrow-down {
+  padding-left: 3px;
 }
