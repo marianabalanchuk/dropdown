@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  font-family: "Bree Serif", serif;
+}
+
+.menu::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.top-menu:hover {
+  background-color: #f6f6f6;
+  color: #1e56a0;
+  cursor: pointer;
+}
+
+.top-menu {
+  float: left;
+  line-height: 46px;
+  list-style: none;
+  background-color: #1e56a0;
+  color: #f6f6f6;
+  border: 2px solid #1e56a0;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  margin: 5px;
+  width: 100px;
+  height: 50px;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content p:hover {
+  background-color: #eeeeee;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
